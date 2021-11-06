@@ -1,0 +1,228 @@
+:root
+{
+    --font-color: yellow;
+    --background-color: black;
+    --border-color: yellow;
+}
+
+*
+{
+    margin: 0 auto;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: sans-serif;
+    color: var(--font-color);
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+img
+{
+    width: 150px;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+header
+{
+    border: 1px solid var(--border-color);
+}
+
+p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.move-main-header
+{
+    text-align: center;
+    margin-top: 2%;
+    padding-bottom: 5%;
+}
+
+.main-header-ctx
+{
+    border: 1px solid var(--border-color);
+    padding: 15px 15px 15px 15px;
+    width: 500px;
+}
+
+.covid
+{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 150px;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.game-widget
+{
+    margin-top: 2%;
+}
+
+.game-ctx
+{
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    border: 1px solid var(--border-color);
+    padding: 15px 15px 15px 15px;
+    width: 500px;
+}
+
+.upgrades
+{
+    margin-top: 0.5%;
+    border: 1px solid var(--border-color);
+    padding: 15px 15px 15px 15px;
+    width: 500px;
+    margin-bottom: 2%;
+}
+
+#hit
+{
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: 100px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 1.5%;
+    font-size: 25px;
+    border-radius: 2pc;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#hit:hover
+{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+}
+
+#up1
+{
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 18px;
+    border-radius: 1pc;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#up1:hover
+{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+}
+
+#up2
+{
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 18px;
+    border-radius: 1pc;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#up2:hover
+{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+}
+
+#up3
+{
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 18px;
+    border-radius: 1pc;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#up3:hover
+{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+}
+
+#up4
+{
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 18px;
+    border-radius: 1pc;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#up4:hover
+{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+}
+
+#up5
+{
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 18px;
+    border-radius: 1pc;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#up5:hover
+{
+    color: red;
+    border-color: red;
+    transition: 0.5s;
+}
